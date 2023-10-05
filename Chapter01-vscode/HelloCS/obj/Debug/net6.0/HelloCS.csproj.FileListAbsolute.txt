@@ -1,0 +1,14 @@
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\bin\Debug\net6.0\HelloCS.exe
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\bin\Debug\net6.0\HelloCS.deps.json
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\bin\Debug\net6.0\HelloCS.runtimeconfig.json
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\bin\Debug\net6.0\HelloCS.dll
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\bin\Debug\net6.0\HelloCS.pdb
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.AssemblyInfo.cs
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.dll
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\refint\HelloCS.dll
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.pdb
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\HelloCS.genruntimeconfig.cache
+C:\Users\willi\source\repos\cs11dotnet7\Chapter01-vscode\HelloCS\obj\Debug\net6.0\ref\HelloCS.dll

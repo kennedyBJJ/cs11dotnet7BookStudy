@@ -1,0 +1,23 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!markdown
+
+# Chapter 01 - Hello, C#! Welcome, .NET!
+
+#!csharp
+
+#!about
+
+#!csharp
+
+Console.WriteLine("Hello, .NET Interactive!")
+
+#!csharp
+
+int number = 8;
+
+#!csharp
+
+Console.WriteLine(number)
