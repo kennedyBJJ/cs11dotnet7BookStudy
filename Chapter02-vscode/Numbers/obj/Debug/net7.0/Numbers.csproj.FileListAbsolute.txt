@@ -1,0 +1,14 @@
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\bin\Debug\net7.0\Numbers.exe
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\bin\Debug\net7.0\Numbers.deps.json
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\bin\Debug\net7.0\Numbers.runtimeconfig.json
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\bin\Debug\net7.0\Numbers.dll
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\bin\Debug\net7.0\Numbers.pdb
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.AssemblyInfo.cs
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.dll
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\refint\Numbers.dll
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.pdb
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\Numbers.genruntimeconfig.cache
+C:\Users\willi\source\repos\cs11dotnet7\Chapter02-vscode\Numbers\obj\Debug\net7.0\ref\Numbers.dll

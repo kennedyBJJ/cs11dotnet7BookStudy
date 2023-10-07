@@ -1,0 +1,160 @@
+#!meta
+
+{"kernelInfo":{"defaultKernelName":"csharp","items":[{"aliases":[],"languageName":"csharp","name":"csharp"}]}}
+
+#!markdown
+
+# Example of statements and blocks
+
+#!csharp
+
+using System; // a semicolon indicates the end of a statement
+//namespace Basics
+//{ // an open brace indicates the start of a block
+class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!"); // a statement
+        }
+    }
+//} // a close brace indicates the end of a block
+
+#!markdown
+
+# Example of methods
+
+#!csharp
+
+// Outputs the current line terminator string.
+// By default, this is a carriage-return and line feed.
+Console.WriteLine();
+// Outputs the greeting and the current line terminator string.
+Console.WriteLine("Hello Ahmed");
+// Outputs a formatted number and date and the current line terminator string.
+Console.WriteLine("Temperature on {0:D} is {1}°C.", DateTime.Today, 23.4);
+
+#!markdown
+
+# Observação da declaração e uso de variáveis
+
+#!csharp
+
+// let the heightInMetres variable become equal to the value 1.88
+double heightInMetres = 1.88;
+Console.WriteLine($"The variable {nameof(heightInMetres)} has the value {heightInMetres}.");
+
+char letter = 'A'; // assigning literal characters
+char digit = '1';
+char symbol = '$';
+// char userChoice = GetSomeKeystroke(); // assigning from a fictitious function
+
+string firstName = "Bob"; // assigning literal strings
+string lastName = "Smith";
+string phoneNumber = "(215) 555-4256";
+// assigning a string returned from the string class constructor
+string horizontalLine = new('-', count: 74); // 74 hyphens
+// assigning a string returned from a fictitious function
+// string address = GetAddressFromDatabase(id: 563);
+// assigning an emoji by converting from Unicode
+string grinningEmoji = char.ConvertFromUtf32(0x1F600);
+
+//para exibir emoji deve-se usar o terminal do windows e setar a codificação para UTF8
+Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+Console.WriteLine(grinningEmoji);
+
+#!markdown
+
+# Verbatim
+
+- O uso de verbatim `@` indica para o console que ele não deve considerar caracteres de escape como o `\n `
+- Isso é util pois facilita a formatação de strings, especialmente strings de caminhos
+
+#!csharp
+
+string filePath = @"C:\televisions\sony\bravia.txt";
+string fullNameWithTabSeparator = "Bob\tSmith";
+Console.WriteLine(filePath);
+Console.WriteLine(fullNameWithTabSeparator);
+
+#!markdown
+
+# Raw String
+
+raw String é definido usando 3 aspas duplas no inicio e no fim da string, são uteis para declarar Strings que representam outras linguagens de marcação, pois ela faz com que não seja necessário realizar o escape de caracteres
+
+#!csharp
+
+string xml = """
+        <person age="50">
+            <first_name>Mark</first_name>
+        </person>
+    """;
+
+Console.Write(xml);
+
+#!markdown
+
+# Raw String com interpolação
+
+Utilizando do sinal de $ e de raw String pode se realizar a interpolação de strings, que é quando chaves {} indicam que o valor de uma variável deve ser exibido.
+O número de $ indica quantas chaves devem ser colocadas para a interpolação ser realizada, um número diferente disso e as chaves são tratadas como caracteres normais
+
+#!csharp
+
+var person = new { FirstName = "Alice", Age = 56 };
+string json = $$"""
+        {
+            "first_name": "{{person.FirstName}}",
+            "age": {{person.Age}},
+            "calculation", "{{{ 1 + 2 }}}"
+        }
+    """;
+Console.WriteLine(json);
+
+#!markdown
+
+# comparing double and decimal types
+
+#!csharp
+
+Console.WriteLine("Using doubles:");
+double a = 0.1;
+double b = 0.2;
+if (a + b == 0.3)
+{
+    Console.WriteLine($"{a} + {b} equals {0.3}");
+}
+else
+{
+    Console.WriteLine($"{a} + {b} does NOT equal {0.3}");
+}
+
+Console.WriteLine("Using decimals:");
+decimal c = 0.1M; // M suffix means a decimal literal value
+decimal d = 0.2M;
+if (c + d == 0.3M)
+{
+    Console.WriteLine($"{c} + {d} equals {0.3M}");
+}
+else
+{
+    Console.WriteLine($"{c} + {d} does NOT equal {0.3M}");
+}
+
+#!markdown
+
+# Default value
+Tipos em C# possuem valores padrões, exceto tipos que são referencias, ou seja, tipos que não armazenam o valor, apenas o endereço de memória que leva à aquele valor
+
+#!csharp
+
+Console.WriteLine($"default(int) = {default(int)}");
+Console.WriteLine($"default(bool) = {default(bool)}");
+Console.WriteLine($"default(DateTime) = {default(DateTime)}");
+Console.WriteLine($"default(string) = {default(string)}");
+int number = 13;
+Console.WriteLine($"number has been set to: {number}");
+number = default;
+Console.WriteLine($"number has been reset to its default: {number}");

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z6JhGX+RhUwgP9vGm4H6PQxV6w1Uava9DKa9UhjYLz1GfQYZk0cB6z8LkSMK3dgtViiIgYbkb81lFP41la45vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\willi\\source\\repos\\cs11dotnet7\\Chapter02-vscode\\Variables\\ExploringConsole\\ExploringConsole.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\fsharp.core\\7.0.400\\fsharp.core.7.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
